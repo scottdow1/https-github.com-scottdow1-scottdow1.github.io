@@ -22,11 +22,16 @@
     <script>
         // create a default jsPanel
         jsPanel.create({
-            theme:       'primary',
+            headerControls: {
+                close: 'remove',
+                maximize: 'remove',
+                minimize: 'remove'
+            },
             headerTitle: 'Select a Validation Rule',
             position:    'center-top 0 58',
             contentSize: '450 250',
             content:     '<p>Example panel ...</p>',
+            theme: '#236467 fillcolor #417E80',
             
             headerControls: {
                 minimize: 'remove',
