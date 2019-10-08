@@ -23,10 +23,14 @@
         // create a default jsPanel
         jsPanel.create({
             theme:       'primary',
-            headerTitle: 'my panel #1',
+            headerTitle: 'Select a Validation Rule',
             position:    'center-top 0 58',
             contentSize: '450 250',
             content:     '<p>Example panel ...</p>',
+            
+            headerControls: {
+                minimize: 'remove',
+             }
 
             callback: function () {
                 this.content.style.padding = '20px';
