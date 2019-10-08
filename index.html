@@ -28,7 +28,9 @@
             contentSize: '450 250',
             content:     '<p>Example panel ...</p>',
             
-            headerControls: close: 'remove',
+            headerControls: {
+               close: 'remove',
+             }
 
             callback: function () {
                 this.content.style.padding = '20px';
